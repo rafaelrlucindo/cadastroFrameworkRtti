@@ -1,0 +1,83 @@
+unit untCliente;
+
+interface
+
+uses
+  untEntidade, untEntidadeAtributos;
+
+type
+  [Tablename('CLIENTE')]
+
+  TCliente = class(TEntidadeGenerica)
+
+    private
+      FId : integer;
+      FNome : string;
+      FCpf : string;
+      Status : string;
+      Data_Nascimento : String;
+
+      procedure setId(aValue:Integer);
+      procedure setNome(aValue:String);
+      procedure setCpf(aValue:String);
+      procedure setStatus(aValue:String);
+      procedure setData_Nascimento(aValue:String);
+
+    public
+      [KeyField('ID')]
+      [FieldName('ID')]
+      property id : Integer read FId write setId;
+
+      [FieldName('NOME')]
+      property nome : String read FNome write setNome;
+
+      [FieldName('CPF')]
+      property telefone : String read FCpf write setCpf;
+
+      [FieldName('STATUS')]
+      property email : String read Status write setStatus;
+
+      [FieldName('DATA_NASCIMENTO')]
+      property endereco : String read Data_Nascimento write setData_Nascimento;
+  end;
+
+implementation
+
+{ TCliente }
+
+procedure TCliente.setStatus(aValue: String);
+begin
+  Status := aValue;
+end;
+
+procedure TCliente.setData_Nascimento(aValue: String);
+begin
+  Data_Nascimento := aValue;
+end;
+
+procedure TCliente.setId(aValue: Integer);
+begin
+  FId := aValue;
+end;
+
+procedure TCliente.setLimite(aValue: Double);
+begin
+  FLimite := aValue;
+end;
+
+procedure TCliente.setNome(aValue: String);
+begin
+  FNome := aValue;
+end;
+
+procedure TCliente.setNumero(aValue: Integer);
+begin
+  FNumero := aValue;
+end;
+
+procedure TCliente.setCpf(aValue: String);
+begin
+  FCpf := aValue;
+end;
+
+end.

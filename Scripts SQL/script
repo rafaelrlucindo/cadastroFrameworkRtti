@@ -1,0 +1,57 @@
+create table cliente(
+  id integer primary key,
+  nome varchar2(80),
+  cpf varchar2(11),
+  status char(1) default('S'),
+  data_nascimento date
+);
+
+create table fornecedor(
+  id integer primary key,
+  nome varchar2(80),
+  cnpj varchar2(14),
+  status char(1) default('S')
+);
+
+create table produto(
+  id integer primary key,
+  idfornecedor integer,
+  descricao varchar2(100),
+  preco_unitario numeric(18,4),  
+  status char(1) default('S')
+);
+
+alter table produto
+add constraint fk_fornecedor
+foreign key(idfornecedor) references fornecedor(id);
+
+
+
+create table venda(
+  id integer primary key,
+  idcliente integer,
+  datahora timestamp,
+  total numeric(18,4),
+  status char(1) default 'N'
+);
+
+alter table venda 
+add constraint fk_cliente
+foreign key (idcliente) references cliente(id);
+
+create table venda_item(
+  id integer primary key,
+  idvenda integer,
+  idproduto integer,
+  unitario numeric(18,4),
+  quantidade numeric(18,4),
+  total numeric(18,4)
+)
+
+alter table venda_item
+add constraint fk_vendaitem
+foreign key (idvenda) references venda(id);
+
+alter table venda_item
+add constraint fk_produto
+foreign key (idproduto) references produto(id);

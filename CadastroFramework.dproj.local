@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/05/20 19:26:05.000.496,=C:\Users\rafa\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/06/26 14:16:41.000.480,=C:\Users\rafa\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/06/26 14:16:50.000.823,=C:\Users\rafa\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/07/22 13:38:36.000.945,=C:\Users\rafa\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/10/23 18:50:37.000.866,=C:\Users\rafa\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/02 21:42:15.000.314,=C:\Users\rafa\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2020/11/02 21:42:17.000.197,=C:\Users\rafa\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerConst1.pas</Transaction>
+    <Transaction>2020/11/02 21:42:17.000.351,=C:\Users\rafa\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2021/01/26 16:08:24.000.545,=C:\Users\rafa\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/17 18:27:59.000.650,=C:\Users\rafa\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/17 18:28:22.000.195,C:\Users\rafa\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\rafa\OneDrive\Desktop\Teste Simus\untMenu.pas</Transaction>
+    <Transaction>2021/03/17 18:28:22.000.195,C:\Users\rafa\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\rafa\OneDrive\Desktop\Teste Simus\untMenu.dfm</Transaction>
+    <Transaction>2021/03/17 18:28:40.000.870,C:\Users\rafa\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\rafa\OneDrive\Desktop\Teste Simus\TesteSimus.dproj</Transaction>
+    <Transaction>2021/03/17 20:57:37.000.778,=C:\Users\rafa\OneDrive\Desktop\Teste Simus\untDmPrincipal.pas</Transaction>
+    <Transaction>2021/03/17 20:58:20.000.538,=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Framework\untEntidadeGenerica.pas</Transaction>
+    <Transaction>2021/03/17 20:58:20.000.511,=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Framework\untDaoGenerico.pas</Transaction>
+    <Transaction>2021/03/17 20:58:20.000.525,=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Framework\untEntidadeAtributos.pas</Transaction>
+    <Transaction>2021/03/17 20:59:28.000.705,=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.pas</Transaction>
+    <Transaction>2021/03/17 21:02:29.000.216,=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit2.pas</Transaction>
+    <Transaction>2021/03/17 21:02:38.000.202,C:\Users\rafa\OneDrive\Desktop\Teste Simus\datasetUtil.pas=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit2.pas</Transaction>
+    <Transaction>2021/03/17 21:05:15.000.774,C:\Users\rafa\OneDrive\Desktop\Teste Simus\untPadrao.dfm=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.dfm</Transaction>
+    <Transaction>2021/03/17 21:05:15.000.774,C:\Users\rafa\OneDrive\Desktop\Teste Simus\untPadrao.pas=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.pas</Transaction>
+    <Transaction>2021/03/17 23:25:39.000.684,=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.pas</Transaction>
+    <Transaction>2021/03/17 23:25:54.000.803,=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.pas</Transaction>
+    <Transaction>2021/03/17 23:26:01.000.995,C:\Users\rafa\OneDrive\Desktop\Teste Simus\untCliente.pas=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.pas</Transaction>
+    <Transaction>2021/03/17 23:26:01.000.995,C:\Users\rafa\OneDrive\Desktop\Teste Simus\untCliente.dfm=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.dfm</Transaction>
+    <Transaction>2021/03/18 00:07:08.000.700,=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.pas</Transaction>
+    <Transaction>2021/03/18 00:07:14.000.793,C:\Users\rafa\OneDrive\Desktop\Teste Simus\untCliente.pas=</Transaction>
+    <Transaction>2021/03/18 00:07:34.000.383,C:\Users\rafa\OneDrive\Desktop\Teste Simus\untCliente.pas=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.pas</Transaction>
+    <Transaction>2021/03/18 00:07:34.000.383,C:\Users\rafa\OneDrive\Desktop\Teste Simus\untCliente.dfm=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.dfm</Transaction>
+    <Transaction>2021/03/19 17:10:53.000.521,=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.pas</Transaction>
+    <Transaction>2021/03/19 17:12:32.000.062,C:\Users\rafa\OneDrive\Desktop\Teste Simus\untCliente.pas=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Framework\untClassCliente.pas</Transaction>
+    <Transaction>2021/03/19 17:12:32.000.062,C:\Users\rafa\OneDrive\Desktop\Teste Simus\untCliente.dfm=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Framework\untClassCliente.dfm</Transaction>
+    <Transaction>2021/03/19 17:13:24.000.490,C:\Users\rafa\OneDrive\Desktop\Teste Simus\Framework\untClassCliente.dfm=C:\Users\rafa\OneDrive\Desktop\Teste Simus\untCliente.dfm</Transaction>
+    <Transaction>2021/03/19 17:13:24.000.490,C:\Users\rafa\OneDrive\Desktop\Teste Simus\Framework\untClassCliente.pas=C:\Users\rafa\OneDrive\Desktop\Teste Simus\untCliente.pas</Transaction>
+    <Transaction>2021/03/21 21:42:28.000.017,=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Framework\untClassCliente.pas</Transaction>
+    <Transaction>2021/03/24 18:34:07.000.738,=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.pas</Transaction>
+    <Transaction>2021/03/24 18:36:04.000.997,C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.pas=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Framework\untFornecedor.pas</Transaction>
+    <Transaction>2021/03/24 18:40:39.000.623,C:\Users\rafa\OneDrive\Desktop\Teste Simus\Framework\untFornecedor.pas=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Framework\untClassFornecedor.pas</Transaction>
+    <Transaction>2021/03/24 18:47:34.000.350,=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.pas</Transaction>
+    <Transaction>2021/03/24 18:47:53.000.685,C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.pas=C:\Users\rafa\OneDrive\Desktop\Teste Simus\untFornecedor.pas</Transaction>
+    <Transaction>2021/03/24 18:47:53.000.685,C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.dfm=C:\Users\rafa\OneDrive\Desktop\Teste Simus\untFornecedor.dfm</Transaction>
+    <Transaction>2021/03/30 04:10:11.000.361,=C:\Users\rafa\OneDrive\Desktop\Teste Simus\untProduto.pas</Transaction>
+    <Transaction>2021/03/30 04:31:58.000.923,=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Framework\untClassProduto.pas</Transaction>
+    <Transaction>2021/04/05 21:12:52.000.201,=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.pas</Transaction>
+    <Transaction>2021/04/05 21:19:29.000.133,C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.dfm=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Reports\untRelCliente.dfm</Transaction>
+    <Transaction>2021/04/05 21:19:29.000.133,C:\Users\rafa\OneDrive\Desktop\Teste Simus\Unit1.pas=C:\Users\rafa\OneDrive\Desktop\Teste Simus\Reports\untRelCliente.pas</Transaction>
+    <Transaction>2022/06/07 10:46:35.580,C:\Rafael\Teste Simus\CadastroFramework.dproj=C:\Rafael\Teste Simus\TesteSimus.dproj</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Framework"/>
+    <File Path="Framework\untClassCliente.pas"/>
+    <File Path="Framework\untClassFornecedor.pas"/>
+    <File Path="Framework\untClassProduto.pas"/>
+    <File Path="Framework\untDaoGenerico.pas"/>
+    <File Path="Framework\untEntidadeAtributos.pas"/>
+    <File Path="Framework\untEntidadeGenerica.pas"/>
+    <File Path="Reports"/>
+    <File Path="Reports\untRelCliente.pas"/>
+    <File Path="Reports\untRelCliente.dfm"/>
+    <File Path="untCliente.pas"/>
+    <File Path="untCliente.dfm"/>
+    <File Path="untDmPrincipal.pas"/>
+    <File Path="untDmPrincipal.dfm"/>
+    <File Path="untFornecedor.pas"/>
+    <File Path="untFornecedor.dfm"/>
+    <File Path="untMenu.pas"/>
+    <File Path="untMenu.dfm"/>
+    <File Path="untPadrao.pas"/>
+    <File Path="untPadrao.dfm"/>
+    <File Path="untProduto.pas"/>
+    <File Path="untProduto.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

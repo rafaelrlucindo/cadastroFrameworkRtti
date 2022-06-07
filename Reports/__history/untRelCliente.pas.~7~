@@ -1,0 +1,53 @@
+unit untRelCliente;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons, Vcl.ExtCtrls,
+  FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Param,
+  FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf, FireDAC.DApt.Intf,
+  FireDAC.Stan.Async, FireDAC.DApt, Data.DB, FireDAC.Comp.DataSet,
+  FireDAC.Comp.Client, ppProd, ppClass, ppReport, ppComm, ppRelatv, ppDB,
+  ppDBPipe, untDmPrincipal;
+
+type
+  TfrmRelCliente = class(TForm)
+    rgStatus: TRadioGroup;
+    btnSair: TBitBtn;
+    BitBtn2: TBitBtn;
+    ppDBRelatorio: TppDBPipeline;
+    ppRelatorio: TppReport;
+    qryRelatorio: TFDQuery;
+    dsRelatorio: TDataSource;
+    procedure BitBtn2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmRelCliente: TfrmRelCliente;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmRelCliente.BitBtn2Click(Sender: TObject);
+begin
+  qryRelatorio.Close;
+
+  case rgStatus.ItemIndex of
+    0 : qryRelatorio.Params.ParamByName('STATUS').AsString = '%';
+    1 : qryRelatorio.Params.ParamByName('STATUS').AsString = 'S';
+    2 : qryRelatorio.Params.ParamByName('STATUS').AsString = 'N';
+  end;
+
+  qryRelatorio.Open;
+
+  if qryRelatorio.IsEmpty then
+    Application.MessageBox('Nenhum resultado encontrado!', 'Atenção', 0);
+end;
+
+end.

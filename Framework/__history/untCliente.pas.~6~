@@ -1,0 +1,79 @@
+unit untCliente;
+
+interface
+
+uses
+  untEntidade, untEntidadeAtributos;
+
+type
+      [Tablename('CLIENTE')]
+
+  TCliente = class(TEntidadeGenerica)
+
+    private
+      FId : integer;
+      FNome : string;
+      FTelefone : string;
+      FEmail : string;
+      FEndereco : String;
+      FNumero : Integer;
+      FLimite : Double;
+
+      procedure setId(aValue:Integer);
+      procedure setNome(aValue:String);
+      procedure setTelefone(aValue:String);
+      procedure setEmail(aValue:String);
+      procedure setEndereco(aValue:String);
+      procedure setNumero(aValue:Integer);
+      procedure setLimite(aValue:Double);
+
+    public
+      property id : Integer read FId write setId;
+      property nome : String read FNome write setNome;
+      property telefone : String read FTelefone write setTelefone;
+      property email : String read FEmail write setEmail;
+      property endereco : String read FEndereco write setEndereco;
+      property numero : Integer read FNumero write setNumero;
+      property limite : Double read FLimite write setLimite;
+  end;
+
+implementation
+
+{ TCliente }
+
+procedure TCliente.setEmail(aValue: String);
+begin
+  FEmail := aValue;
+end;
+
+procedure TCliente.setEndereco(aValue: String);
+begin
+  FEndereco := aValue;
+end;
+
+procedure TCliente.setId(aValue: Integer);
+begin
+  FId := aValue;
+end;
+
+procedure TCliente.setLimite(aValue: Double);
+begin
+  FLimite := aValue;
+end;
+
+procedure TCliente.setNome(aValue: String);
+begin
+  FNome := aValue;
+end;
+
+procedure TCliente.setNumero(aValue: Integer);
+begin
+  FNumero := aValue;
+end;
+
+procedure TCliente.setTelefone(aValue: String);
+begin
+  FTelefone := aValue;
+end;
+
+end.
